@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh; 
+    background-color: #E6EFF6;  
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 630px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+}
+
+button {
+    border: 0;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    font-size: 16px;
+    width: 245px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bloco2,
+.bloco3 {
+    flex: 1;
+}
+.bloco1,
+.bloco2,
+.bloco3 {
+    padding: 30px;
+}
+
+.bloco1 {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bloco1 > h2 {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+}
+
+.bloco1 > p {
+    font-size: 18px;
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}
+
+.bloco2 {
+    background-color: #2BB3B1;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+}
+
+.bloco2 > p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.bloco3 {
+    background-color: #4abebd;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+}
+.valor h3 {
+    font-size: 35px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.valor p {
+    color: hsl(218, 22%, 67%);
+}
+
+
+
+
+
+
+
+.attribution {
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 0%);
+}
